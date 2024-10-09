@@ -1,0 +1,553 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.20240218.222250.49344.0.001.json",
+    "dumpEventTime": "2024-02-18T22:22:50Z",
+    "dumpEventTimeStamp": "1708269770904",
+    "processId": 49344,
+    "threadId": 0,
+    "cwd": "C:\\Kuliah\\coding\\node.js\\sourceCode",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "--report-uncaught-exception",
+      "--report-on-signal",
+      "\\"
+    ],
+    "nodejsVersion": "v18.16.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.8.2",
+      "ada": "1.0.4",
+      "ares": "1.19.0",
+      "brotli": "1.0.9",
+      "cldr": "42.0",
+      "icu": "72.1",
+      "llhttp": "6.0.10",
+      "modules": "108",
+      "napi": "8",
+      "nghttp2": "1.52.0",
+      "nghttp3": "0.7.0",
+      "ngtcp2": "0.8.1",
+      "node": "18.16.0",
+      "openssl": "3.0.8+quic",
+      "simdutf": "3.2.2",
+      "tz": "2022g",
+      "undici": "5.21.0",
+      "unicode": "15.0",
+      "uv": "1.44.2",
+      "uvwasi": "0.0.15",
+      "v8": "10.2.154.26-node.26",
+      "zlib": "1.2.13"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Hydrogen",
+      "headersUrl": "https://nodejs.org/download/release/v18.16.0/node-v18.16.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v18.16.0/node-v18.16.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v18.16.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22621",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 17850859,
+        "nice": 0,
+        "sys": 33478078,
+        "idle": 1014592250,
+        "irq": 1832203
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 13325421,
+        "nice": 0,
+        "sys": 12219453,
+        "idle": 1040376296,
+        "irq": 219828
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 12116718,
+        "nice": 0,
+        "sys": 7829890,
+        "idle": 1045974546,
+        "irq": 126468
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 36720875,
+        "nice": 0,
+        "sys": 76601687,
+        "idle": 952598609,
+        "irq": 1950750
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 13864687,
+        "nice": 0,
+        "sys": 11527218,
+        "idle": 1040529218,
+        "irq": 209109
+      },
+      {
+        "model": "AMD Ryzen 5 4500U with Radeon Graphics         ",
+        "speed": 2371,
+        "user": 12545562,
+        "nice": 0,
+        "sys": 11813109,
+        "idle": 1041562531,
+        "irq": 246656
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "5c:61:99:2a:de:25",
+        "address": "fe80::fc33:e8e3:c059:cfc",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "5c:61:99:2a:de:25",
+        "address": "192.168.1.63",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-VIQ8LKVV"
+  },
+  "javascriptStack": {
+    "message": "Error: Cannot find module 'C:\\'",
+    "stack": [
+      "at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)",
+      "at Module._load (node:internal/modules/cjs/loader:920:27)",
+      "at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)"
+    ],
+    "errorProperties": {
+      "code": "MODULE_NOT_FOUND",
+      "requireStack": ""
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6438912,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 6438912,
+    "availableMemory": 2193253272,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2368,
+    "usedMemory": 5445000,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 254072,
+    "externalMemory": 440137,
+    "peakMallocedMemory": 196720,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 4386816,
+        "committedMemory": 4386816,
+        "capacity": 4309936,
+        "used": 4084160,
+        "available": 225776
+      },
+      "code_space": {
+        "memorySize": 471040,
+        "committedMemory": 471040,
+        "capacity": 434368,
+        "used": 434368,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 515632,
+        "used": 515576,
+        "available": 56
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030976,
+        "used": 0,
+        "available": 1030976
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030976,
+        "used": 410896,
+        "available": 620080
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7ba06fb7d",
+      "symbol": "node::GetNodeReport+13117"
+    },
+    {
+      "pc": "0x00007ff7ba073f10",
+      "symbol": "node::TriggerNodeReport+3424"
+    },
+    {
+      "pc": "0x00007ff7ba072f18",
+      "symbol": "node::TriggerNodeReport+2600"
+    },
+    {
+      "pc": "0x00007ff7ba072531",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff7ba0f6145",
+      "symbol": "node::OnFatalError+5573"
+    },
+    {
+      "pc": "0x00007ff7ba0f6d5c",
+      "symbol": "node::OnFatalError+8668"
+    },
+    {
+      "pc": "0x00007ff7ba0f51a1",
+      "symbol": "node::OnFatalError+1569"
+    },
+    {
+      "pc": "0x00007ff7baa61546",
+      "symbol": "v8::internal::MessageHandler::ReportMessage+1286"
+    },
+    {
+      "pc": "0x00007ff7baa61354",
+      "symbol": "v8::internal::MessageHandler::ReportMessage+788"
+    },
+    {
+      "pc": "0x00007ff7baa73cef",
+      "symbol": "v8::internal::Isolate::ReportPendingMessages+511"
+    },
+    {
+      "pc": "0x00007ff7baa8454e",
+      "symbol": "v8::internal::Execution::CallWasm+1598"
+    },
+    {
+      "pc": "0x00007ff7baa83d2f",
+      "symbol": "v8::internal::Execution::Call+191"
+    },
+    {
+      "pc": "0x00007ff7bab7c602",
+      "symbol": "v8::Function::Call+466"
+    },
+    {
+      "pc": "0x00007ff7ba07a597",
+      "symbol": "node::TriggerNodeReport+29671"
+    },
+    {
+      "pc": "0x00007ff7ba130d25",
+      "symbol": "node::Start+1221"
+    },
+    {
+      "pc": "0x00007ff7ba1310e4",
+      "symbol": "node::Start+2180"
+    },
+    {
+      "pc": "0x00007ff7ba1995d9",
+      "symbol": "node::LoadEnvironment+89"
+    },
+    {
+      "pc": "0x00007ff7ba0aa578",
+      "symbol": "EVP_CIPHER_CTX_get_cipher_data+149256"
+    },
+    {
+      "pc": "0x00007ff7ba12f372",
+      "symbol": "node::InitializeOncePerProcess+2898"
+    },
+    {
+      "pc": "0x00007ff7ba130ba3",
+      "symbol": "node::Start+835"
+    },
+    {
+      "pc": "0x00007ff7b9f37ecc",
+      "symbol": "AES_cbc_encrypt+124156"
+    },
+    {
+      "pc": "0x00007ff7bb19e248",
+      "symbol": "inflateValidate+18712"
+    },
+    {
+      "pc": "0x00007ffd9a89257d",
+      "symbol": "BaseThreadInitThunk+29"
+    },
+    {
+      "pc": "0x00007ffd9b92aa58",
+      "symbol": "RtlUserThreadStart+40"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 1171226624,
+    "total_memory": 7909199872,
+    "rss": 34742272,
+    "available_memory": 1171226624,
+    "userCpuSeconds": 0.109,
+    "kernelCpuSeconds": 0,
+    "cpuConsumptionPercent": 10.9,
+    "userCpuConsumptionPercent": 10.9,
+    "kernelCpuConsumptionPercent": 0,
+    "maxRss": 57769984,
+    "pageFaults": {
+      "IORequired": 15343,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000022f51ae3870"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7be026cb0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000022f538a51c0",
+      "repeat": 0,
+      "firesInMsFromNow": -2892904050,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000022f538a5260"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000022f538a52d8"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000022f538a5350"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000022f538a53c8"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000022f538a5440"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7be026b80"
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff7be2b2590",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\YOSSI NORDIANSAH\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_27680_RPQBTKQLWWZMSFIK",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-VIQ8LKVV",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/etc/config.site",
+    "C_EM64T_REDIST11": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EFC_44052": "1",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "HOME": "C:\\Users\\YOSSI NORDIANSAH",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\YOSSI NORDIANSAH",
+    "HOSTNAME": "LAPTOP-VIQ8LKVV",
+    "INFOPATH": "C:\\Program Files\\Git\\mingw64\\local\\info;C:\\Program Files\\Git\\mingw64\\share\\info;C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LC_CTYPE": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\YOSSI NORDIANSAH\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-VIQ8LKVV",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "6",
+    "OneDrive": "C:\\Users\\YOSSI NORDIANSAH\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\YOSSI NORDIANSAH\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\YOSSI NORDIANSAH\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dart-sass;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs;C:\\Windows\\System32;C:\\BC5\\BIN;C:\\Users\\YOSSI NORDIANSAH\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Kuliah\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard;C:\\Users\\YOSSI NORDIANSAH\\.dotnet\\tools;C:\\Users\\YOSSI NORDIANSAH\\AppData\\Roaming\\npm",
+    "ORIGINAL_TEMP": "C:/Users/YOSSIN~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/YOSSIN~1/AppData/Local/Temp",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\YOSSI NORDIANSAH\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\YOSSI NORDIANSAH\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dart-sass;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs;C:\\Windows\\System32;C:\\BC5\\BIN;C:\\Users\\YOSSI NORDIANSAH\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Kuliah\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard;C:\\Users\\YOSSI NORDIANSAH\\.dotnet\\tools;C:\\Users\\YOSSI NORDIANSAH\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PKG_CONFIG_SYSTEM_INCLUDE_PATH": "C:/Program Files/Git/mingw64/include",
+    "PKG_CONFIG_SYSTEM_LIBRARY_PATH": "C:/Program Files/Git/mingw64/lib",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "6001",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\YOSSI NORDIANSAH\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PT8HOME": "C:\\Program Files\\Cisco Packet Tracer 8.0.1",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Kuliah/coding/node.js/sourceCode",
+    "QT_DEVICE_PIXEL_RATIO": "auto",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/bin/git-askpass.exe",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\YOSSIN~1\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.86.2",
+    "TMP": "C:\\Users\\YOSSIN~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\YOSSIN~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-VIQ8LKVV",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-VIQ8LKVV",
+    "USERNAME": "YOSSI NORDIANSAH",
+    "USERPROFILE": "C:\\Users\\YOSSI NORDIANSAH",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Kuliah/Microsoft VS Code/Code.exe",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "GIT_ASKPASS": "c:\\Kuliah\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Kuliah\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Kuliah\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-eab5c26e08-sock",
+    "VSCODE_INJECTION": "1"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\nlansp_c.dll"
+  ]
+}
