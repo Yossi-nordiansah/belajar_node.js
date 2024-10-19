@@ -12,3 +12,21 @@
 
 // Streams memungkinkan Anda untuk memproses data secara efisien dan secara bertahap, mengurangi memori yang diperlukan dan waktu yang dibutuhkan untuk mengirim atau menerima data. Ini membuatnya sangat berguna untuk aplikasi Node.js yang berurusan dengan data besar.
 
+import fs from "fs";
+
+//memnulis stream
+const writer = fs.createWriteStream("target_stream.log");
+
+writer.write("hello\n");
+writer.write("Yossi\n");
+writer.write("Nordiansah\n");
+
+writer.end();
+
+//membaca stream
+const reader = fs.createReadStream("target_stream.log");
+reader.on("data", (data) => {
+    console.info(data.toString());
+    console.info("tes");
+});
+
